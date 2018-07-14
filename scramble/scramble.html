@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Угадай слово за 15 секунд</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="../vm/lua.vm.js"></script>
+  <script type="text/lua">require("scramble")</script>
+</head>
+<body>
+<div id="wrapper">
+    <h1>Угадай слово за 15 секунд</h1>
+    <button id="btnStart">Играть</button>
+    <h3 id="strTimer"></h3>
+    <h2 id="strWord"></h2>
+    <input type="text" id="txtResult">
+    <h2>Ответов: <span id="strWin">0</span></h2>
+    <h2>Не успел: <span id="strLose">0</span></h2>
+  </div>
+ 
+</body>
+</html>

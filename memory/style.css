@@ -1,0 +1,62 @@
+html {
+  background: #fff;
+  font: 16px calibri, sans-serif;
+  cursor: default;
+}
+div.d1, div.d2, div.d3 {
+  float: left;
+  margin: 0 8px 0 0;
+  padding: 20px;
+}
+div.d1 { background: #ccf; }
+div.d2 { background: #fcc; }
+div.d3 { background: #cfc; }
+form div input {
+  border-style: solid;
+  border-color: #999;
+  border-width: 2px;
+}
+form{float: left}
+label{float:left; margin-right:1px}
+form div{text-align:right; margin-bottom:10px}
+form textarea{width: 100%}
+span{color:red}
+div#button {
+  margin-top: 10px
+}
+/* раскрывающийся список */
+ ul{
+      width: 170px;
+    }
+    li ul {
+      display: block;
+    }
+    /* выставить в none */
+    li{
+      list-style-image: url('../module-3/imgs/point.gif');
+      margin-top: 1px;
+    }
+    
+    a:link, a:visited{
+      font-size: 90%;
+      display:block;
+      padding: 0.4em 0 0.4em 0.5em;
+      border-left: 12px solid #711515;
+      border-right: 3px solid #711515;
+      background: #B51032;
+      color: white;
+      text-decoration: none;
+    }
+    a:hover{
+      background: #711515;
+    }
+/* memory */
+ #wrapper {
+  width: 500px;
+  margin: auto;
+}
+
+div#box {
+  width: 284px;
+  height: 384px;
+}
